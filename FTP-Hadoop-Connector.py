@@ -1,67 +1,3 @@
-
-Attachment MarketAnalysis.scala successfully uploaded and added.Conversation opened. 1 unread message.
-
-
-Skip to content
-Using Gmail with screen readers
-2
-Search
-
-
-
-Click here to enable desktop notifications for Gmail.   Learn more  Hide
-Gmail
-COMPOSE
-Labels
-Inbox (925)
-Starred
-Important
-Sent Mail
-Drafts (86)
-All Mail
-BigData
-ChetanaSforum
-Cloudera
-Education (4)
-hortonworks (137)
-IAS
-imp (3)
-Lic India
-Pig (229)
-Technology (1)
-web 18 (3)
-More 
-Hangouts
-
- 
- 
-  More 
-1 of 5,362  
- 
-Print all In new window
-Python Script 
-Inbox
-x 
-
-Niranjan Msv
-Attachments12:38 PM (33 minutes ago)
-
-to me 
-Attachments area
-	
-Click here to Reply or Forward
-10.66 GB (71%) of 15 GB used
-Manage
-Terms - Privacy
-Last account activity: 1 hour ago
-Details
-Niranjan Msv's profile photo
-Niranjan Msv
-ssc
-
-Show details
-
-
 #!/usr/bin/python
 
 from ftplib import FTP
@@ -204,8 +140,3 @@ for fileno in ftp_dirs:
         status =  compare_cksum(ftp_cksum, local_cksum)
         message = hdfs(ftp_file, local_path, hdfspath, mysql_host, mysql_port, mysql_user, mysql_password, mysql_database, fileno)
 	print message
-        
-
-ftppython.py
-Open with
-Displaying ftppython.py.
